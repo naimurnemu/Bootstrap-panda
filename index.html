@@ -22,68 +22,75 @@
         <link rel="stylesheet" href="stylesheet/style.css" />
     </head>
     <body>
-        <header class="container">
+        <header class="">
             <!-- Navigation-Bar -->
             <nav
                 class="
                     navbar navbar-expand-lg navbar-light
                     bg-light
                     rounded
+                    container
                 "
             >
-                <div class="container">
-                    <a class="navbar-brand" href="#"
-                        ><img
-                            src="images/logo/logo.png"
-                            alt="Panda_logo"
-                            width="165px"
-                            height="28px"
-                    /></a>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div
-                        class="collapse navbar-collapse"
-                        id="navbarSupportedContent"
-                    >
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link active"
-                                    aria-current="page"
-                                    href="#"
-                                    >Home</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Shoes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">BackPack</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Subscribe</a>
-                            </li>
-                        </ul>
-                    </div>
+                <a class="navbar-brand" href="#"
+                    ><img
+                        src="images/logo/logo.png"
+                        alt="Panda_logo"
+                        width="165px"
+                        height="28px"
+                /></a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BackPack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Subscribe</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
             <!-- Image-Slider -->
-            <section class="">
+            <section class="container px-0">
                 <div
                     id="carouselExampleControls"
                     class="carousel slide"
                     data-bs-ride="carousel"
                 >
-                    <div class="carousel-inner bg-info bg-gradiant rounded-3 p-5">
+                    <div
+                        class="
+                            carousel-inner
+                            bg-info bg-gradiant
+                            border
+                            rounded-3
+                            p-5
+                        "
+                    >
                         <div class="carousel-item active">
                             <div class="row d-flex align-items-center">
                                 <div class="col-lg-7">
@@ -181,7 +188,74 @@
                 </div>
             </section>
         </header>
-        <main></main>
+        <main class="">
+            <section class="container my-5">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div
+                            class="
+                                p-2
+                                border
+                                bg-warning
+                                d-flex
+                                align-items-center
+                                justify-content-between
+                                rounded-3
+                            "
+                        >
+                            <p class="h1">Watch</p>
+                            <img
+                                src="images/categories/watch.png"
+                                width="100px"
+                                alt="Watch"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div
+                            class="
+                                p-2
+                                border
+                                bg-info
+                                d-flex
+                                align-items-center
+                                justify-content-between
+                                rounded-3
+                            "
+                        >
+                            <p class="h1">Bag</p>
+                            <img
+                                src="images/categories/bag.png"
+                                width="100px"
+                                alt="Bag"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div
+                            class="
+                                p-2
+                                border
+                                bg-primary
+                                d-flex
+                                align-items-center
+                                justify-content-between
+                                rounded-3
+                            "
+                        >
+                            <p class="h1">Shoes</p>
+                            <img
+                                src="images/categories/shoes.png"
+                                width="100px"
+                                alt="Shoes"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
         <footer></footer>
         <!-- Bootstrap-JS -->
         <script
