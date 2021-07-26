@@ -1,0 +1,13 @@
+.panda-bg-info{
+    background-color: #FEEAE9;
+}
+.pink_bg{
+   background-color: #DA70D6; 
+}
+.panda-btn{
+    background-image: linear-gradient(to top, #ff5a5a, #f9258b);
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+}
