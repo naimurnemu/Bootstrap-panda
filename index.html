@@ -103,7 +103,7 @@
                                         front of tv.
                                     </p>
                                     <p class="h1">$1200</p>
-                                    <button class="btn panda-btn">
+                                    <button class="btn console-js panda-btn">
                                         Buy Now
                                     </button>
                                 </div>
@@ -126,7 +126,7 @@
                                         in front of funky world.
                                     </p>
                                     <p class="h1">$420</p>
-                                    <button class="btn panda-btn">
+                                    <button class="btn console-js panda-btn">
                                         Buy Now
                                     </button>
                                 </div>
@@ -149,7 +149,7 @@
                                         front of fake sports.
                                     </p>
                                     <p class="h1">$600</p>
-                                    <button class="btn panda-btn">
+                                    <button class="btn console-js panda-btn">
                                         Buy Now
                                     </button>
                                 </div>
@@ -260,10 +260,10 @@
             </section>
             <!-- Shoe-section -->
             <section class="container px-0" id="shoe">
-                <h2>Shoes</h2>
+                <h2 class ="h2-color">Shoes</h2 class ="h2-color">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
-                        <div class="card shadow-lg rounded-3 border-0 h-100">
+                        <div class="card shadow-lg border-0 h-100">
                             <img
                                 src="images/shoes/shoe-1.png"
                                 class="card-img-top"
@@ -283,7 +283,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card shadow-lg rounded-3 border-0 h-100">
+                        <div class="card shadow-lg border-0 h-100">
                             <img
                                 src="images/shoes/shoe-2.png"
                                 class="card-img-top"
@@ -303,7 +303,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card shadow-lg rounded-3 border-0 h-100">
+                        <div class="card shadow-lg border-0 h-100">
                             <img
                                 src="images/shoes/shoe-3.png"
                                 class="card-img-top"
@@ -326,10 +326,10 @@
             </section>
             <!-- BackPack-section -->
             <section class="container px-0 mt-5" id="backpack">
-                <h2>BackPacks</h2>
+                <h2 class ="h2-color">BackPacks</h2 class ="h2-color">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
-                        <div class="card shadow-lg rounded-3 border-0 h-100">
+                        <div class="card shadow-lg border-0 h-100">
                             <img
                                 src="images/bags/bag-1.png"
                                 class="card-img-top"
@@ -349,7 +349,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card shadow-lg rounded-3 border-0 h-100">
+                        <div class="card shadow-lg border-0 h-100">
                             <img
                                 src="images/bags/bag-2.png"
                                 class="card-img-top"
@@ -369,7 +369,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card shadow-lg rounded-3 border-0 h-100">
+                        <div class="card shadow-lg border-0 h-100">
                             <img
                                 src="images/bags/bag-3.png"
                                 class="card-img-top"
@@ -411,11 +411,11 @@
                     <input
                         type="text"
                         name=""
-                        id=""
+                        id="input-email"
                         class="form-control me-2"
                         placeholder="Write Your Message"
                     /><br />
-                    <button class="btn panda-btn">SUBMIT</button>
+                    <button id="submit-email" class="btn panda-btn" disabled>SUBMIT</button>
                 </div>
             </section>
         </main>
@@ -432,5 +432,10 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"
         ></script>
+        <script src="js/app.js"></script>
+        <script>
+            const welcome = "Hello world with bootstrap Panda commarce!"
+            console.log(welcome)
+        </script>
     </body>
 </html>
